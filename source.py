@@ -17,7 +17,7 @@ graypic = cv2.cvtColor(pic, cv2.COLOR_BGR2GRAY)
 facelist = haarcascade.detectMultiScale(graypic, 1.1, 19)
 
 # print list with faces
-print("Detected faces: ", len(facelist), "(Number of detected faces maybe not correct!)")
+print("Detected faces: ", len(facelist), "(Number of detected faces maybe is not correct!)")
 
 # marking faces in a picture
 # x - facelist[][0]
