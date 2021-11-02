@@ -14,7 +14,7 @@ haarcascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontal
 graypic = cv2.cvtColor(pic, cv2.COLOR_BGR2GRAY)
 
 # init list with found faces
-facelist = haarcascade.detectMultiScale(graypic, 1.1, 19)
+facelist = haarcascade.detectMultiScale(graypic, 1.1, 5)
 
 # print list with faces
 print("Detected faces: ", len(facelist), "(Number of detected faces maybe is not correct!)")
